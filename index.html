@@ -2,20 +2,21 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Сучасна пекарня</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
         </a>
         <ul>
-          <li><a href="#">Франшиза></a></li>
-          <li><a href="#">Наші традиції></a></li>
-          <li><a href="#">Формати></a></li>
-          <li><a href="#">Контакти></a></li>
+          <li><a href="#traditions-section">Наші традиції</a></li>
+          <li><a href="#chefs-section">Шеф кухарі</a></li>
+          <li><a href="#format-section">Формати</a></li>
+          <li><a href="#contacts-section">Контакти</a></li>
         </ul>
       </nav>
       <button type="button">Замовити дзвінок</button>
@@ -24,7 +25,7 @@
       <sesction>
         <h1>Сучасна пекарня</h1>
       </sesction>
-      <sesction>
+      <sesction id="traditions-section">
         <ul>
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
@@ -42,7 +43,7 @@
         </p>
         <img src="./images/baker-man.svg" alt="Пекар дивиться і посміхається" />
       </sesction>
-      <sesction>
+      <sesction id="chefs-section">
         <h2>Найкращі шеф кухарі</h2>
         <ul>
           <li>
@@ -66,7 +67,7 @@
           </li>
         </ul>
       </sesction>
-      <sesction>
+      <sesction id="format-section">
         <h2>Формати</h2>
         <ul>
           <li>
@@ -86,8 +87,17 @@
           </li>
         </ul>
       </sesction>
-      <sesction>
+      <sesction id="contacts-section">
         <h2>Приєднуйся до м ережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1638712576378!2d30.488658576098256!3d50.456673086916275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1703764290751!5m2!1sru!2sua"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </sesction>
     </main>
     <footer>
@@ -115,11 +125,8 @@
           </li>
         </ul>
       </address>
+      <a href="#" target="_blank"> Політика конфіденційності </a>
+      <p>&copy; 2023 Дані захищені</p>
     </footer>
   </body>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
 </html>
